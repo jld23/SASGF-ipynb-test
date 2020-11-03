@@ -1,0 +1,20 @@
+name: jared-test-env
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - nodejs
+  - python3-sphinx
+  - pip:
+    - jupyterlab
+    - nbgitpuller
+    - sas_kernel
+    - saspy
+    - swat
+    - pandas
+    - numpy
+    - sphinx
+    - jupyter-book
+    - myst-nb
+

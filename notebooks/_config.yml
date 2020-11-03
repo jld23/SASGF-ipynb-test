@@ -1,0 +1,9 @@
+# Book settings
+title: My sample SAS Global Forum Paper
+author: Jared Dean
+copyright : "2020"  # Copyright year to be placed in the footer
+#logo: 'images/logo.png'
+
+# Configure your Binder links, such as the URL of the BinderHub.
+launch_buttons:
+  binderhub_url             : https://github.com/jld23/SASGF-ipynb-test.git
