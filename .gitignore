@@ -1,2 +1,4 @@
 notebooks/_build/*
 **/.ipynb_checkpoints/
+notebooks/sascfg_personal.py
+**/.DS_Store

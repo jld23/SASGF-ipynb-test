@@ -6,4 +6,20 @@ copyright : "2020"  # Copyright year to be placed in the footer
 
 # Configure your Binder links, such as the URL of the BinderHub.
 launch_buttons:
-  binderhub_url             : https://github.com/jld23/SASGF-ipynb-test.git
+  notebook_interface: "jupyterlab" # The interface interactive links will activate ["classic", "jupyterlab"]
+  binderhub_url: "https://mybinder.org"
+  #colab_url: "https://colab.research.google.com"
+  thebe: true
+
+repository:
+  url: https://github.com/jld23/SASGF-ipynb-test
+  branch: main
+  path_to_book: docs
+
+parse:
+  myst_extended_syntax: true
+
+#sphinx:
+#config:
+#    key1: value1
+#    key2: value2
