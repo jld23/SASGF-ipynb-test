@@ -1,10 +1,11 @@
-name: jared-test-env
+name: SASgf-test-env
 channels:
   - conda-forge
 dependencies:
   - python
   - pip
   - nodejs
+  - openjdk
   - pip:
     - jupyterlab
     - nbgitpuller
