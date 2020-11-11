@@ -4,3 +4,5 @@ set -ex
 
 jupyter lab build --dev-build=False --minimize=False
 
+pip install swat
+

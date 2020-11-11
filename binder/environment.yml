@@ -17,5 +17,5 @@ dependencies:
     - jupyter-book
     - myst-nb
     - pyppeteer
-    - swat
+  #  - swat
 
