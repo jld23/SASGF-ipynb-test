@@ -5,13 +5,13 @@ dependencies:
   - python
   - pip
   - nodejs
-#  - openjdk
+  - openjdk
   - pip:
     - jupyterlab
     - nbgitpuller
     - sas_kernel
     - saspy
-    - swat
+#    - swat
     - pandas
     - numpy
     - sphinx
