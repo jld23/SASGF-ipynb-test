@@ -2,9 +2,10 @@
 
 set -ex
 
-jupyter lab build --dev-build=False --minimize=False
-
 pip install swat
+
+# build Jupyterlab
+jupyter lab build --dev-build=False --minimize=False
 
 # Import the workspace into JupyterLab
 jupyter lab workspaces import binder/workspace.json
