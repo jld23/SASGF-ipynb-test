@@ -6,3 +6,5 @@ jupyter lab build --dev-build=False --minimize=False
 
 pip install swat
 
+# Import the workspace into JupyterLab
+jupyter lab workspaces import binder/workspace.json
