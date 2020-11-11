@@ -11,11 +11,11 @@ dependencies:
     - nbgitpuller
     - sas_kernel
     - saspy
-#    - swat
     - pandas
     - numpy
     - sphinx
     - jupyter-book
     - myst-nb
     - pyppeteer
+    - swat
 
