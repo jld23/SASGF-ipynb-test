@@ -12,4 +12,5 @@ jupyter lab workspaces import binder/workspace.json
 
 # copy the sascfg_personal to config dir
 mkdir -p ~/.config/saspy
-cp ./sascfg_personal.py ~/.config/saspy
+cp binder/sascfg_personal.py ~/.config/saspy
+#cp ./sascfg_personal.py ~/.config/saspy
