@@ -9,3 +9,7 @@ jupyter lab build --dev-build=False --minimize=False
 
 # Import the workspace into JupyterLab
 jupyter lab workspaces import binder/workspace.json
+
+# copy the sascfg_personal to config dir
+mkdir -p ~/.config/saspy
+cp ./sascfg_personal.py ~/.config/saspy
